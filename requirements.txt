@@ -1,0 +1,11 @@
+flask
+pandas
+requests
+beautifulsoup4
+scikit-learn
+sentence-transformers
+spacy
+pdfplumber
+python-docx
+tabulate 
+transformers

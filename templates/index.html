@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Skill Gap Analyser - TechSkillSync</title>
+  <link rel="icon" type="image/png" href="{{ url_for('static', filename='favicon.png') }}">
+  <link rel="stylesheet" href="static/styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Skill Gap Analyser</h1>
+    <nav>
+      <a href="/">Home</a> |
+      <a href="/skill_matcher">Skill Matcher</a> |
+      <a href="/positions">Positions</a>
+    </nav>
+
+    <!-- === Mode Toggle Selector === -->
+    <label for="inputMode"><strong>Select Input Mode:</strong></label>
+    <select id="inputMode">
+      <option value="manual">Manual Skill Entry</option>
+      <option value="resume">Resume Upload / Paste</option>
+    </select>
+
+    <!-- === Manual Entry Section === -->
+    <section id="manualSection">
+      <label for="skillInput">Enter Skills:</label>
+      <input type="text" id="skillInput" placeholder="e.g. Python, SQL, Java">
+      <p class="hint">Tip: You can enter multiple skills separated by commas.</p>
+      <div id="suggestions" class="autocomplete-box hidden"></div>
+
+      <strong>Selected Skills:</strong>
+      <div class="tags" id="selectedSkills"></div>
+    </section>
+
+    <!-- === Resume Upload Section === -->
+    <section id="resumeSection" style="display: none;">
+      <fieldset>
+        <legend>Extract Skills from Resume</legend>
+        <p>You can upload a resume file <strong>OR</strong> paste your resume text to automatically extract skills.</p>
+
+        <label for="resumeFile">Upload Resume (PDF/Word):</label>
+        <input type="file" id="resumeFile" accept=".pdf,.doc,.docx">
+
+        <label for="resumeText">Or Paste Resume Text:</label>
+        <textarea id="resumeText" placeholder="Paste your resume here..." rows="8"></textarea>
+
+        <button type="button" id="extractCVBtn">Extract Skills from Resume</button>
+        <div id="cvExtractedSkills" class="tags"></div>
+      </fieldset>
+    </section>
+
+    <!-- === Navigate to Positions Button === -->
+    <div style="text-align: center; margin: 20px 0;">
+      <button onclick="goToPositionsPage()">View Matching Jobs</button>
+    </div>
+
+    <!-- === Matching Results === -->
+    <div id="results">
+      <h3>Matched ESCO Skills:</h3>
+      <table id="matchedSkillsTable" border="1" cellpadding="6" style="width:100%; border-collapse: collapse;"></table>
+
+      <h3>Matching Jobs:</h3>
+      <ul id="jobMatchesList"></ul>
+    </div>
+
+    <!-- === Matched or All Radio === -->
+    <div class="radio-group">
+      <label class="radio-option">
+        <input type="radio" name="jobSource" value="matched" checked>
+        <span>Show Only Matched Jobs</span>
+      </label>
+      <label class="radio-option">
+        <input type="radio" name="jobSource" value="all">
+        <span>Show All ESCO Jobs</span>
+      </label>
+    </div>
+
+    <!-- === Skill Comparison Section === -->
+    <div id="comparison">
+      <h3>Select a Matched Job to Compare:</h3>
+      <select id="jobDropdown">
+        <option value="">-- Select a job --</option>
+      </select>
+      <button id="runComparisonBtn">Check Missing Skills</button>
+      <ul id="missingSkillsList"></ul>
+    </div>
+  </div>
+
+  <script src="static/script.js"></script>
+  <script>
+    // Toggle input mode section visibility
+    document.getElementById('inputMode').addEventListener('change', function () {
+      const manualSection = document.getElementById('manualSection');
+      const resumeSection = document.getElementById('resumeSection');
+      if (this.value === 'manual') {
+        manualSection.style.display = 'block';
+        resumeSection.style.display = 'none';
+      } else {
+        manualSection.style.display = 'none';
+        resumeSection.style.display = 'block';
+      }
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,338 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    background: #f9f9f9;
+    color: #333;
+}
+
+h1 {
+    color: #222;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    max-width: 800px;
+    margin: auto;
+}
+
+.container > *:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 1em;
+    resize: vertical;
+    box-sizing: border-box; 
+}
+
+#modeToggle {
+    margin-bottom: 20px;
+}
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.tag {
+    background: #007BFF;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.tag:hover {
+    background: #0056b3;
+}
+
+.autocomplete-box {
+    position: relative;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    max-height: 150px;
+    overflow-y: auto;
+    width: 100%;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    z-index: 10;
+}
+
+.autocomplete-item {
+    padding: 8px 12px;
+    cursor: pointer;
+    color: #888;
+}
+
+.autocomplete-item:hover {
+    background-color: #f0f0f0;
+    color: #000;
+}
+
+.autocomplete-box.hidden {
+    display: none;
+    border: none;
+    box-shadow: none;
+}
+
+#results {
+    background-color: #fdfdfd;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#results h3 {
+    margin-top: 0;
+    color: #333;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 8px;
+    font-size: 1.1em;
+}
+
+#matchedSkillsList, #jobMatchesList {
+    list-style: disc;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+#matchedSkillsList li, #jobMatchesList li {
+    margin-bottom: 6px;
+    font-size: 0.95em;
+    color: #444;
+}
+
+#jobMatchesList {
+    list-style: disc;
+    padding-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#jobMatchesList li {
+    margin-bottom: 6px;
+    font-size: 0.95em;
+    color: #444;
+}
+
+#missingSkillsList {
+    margin-top: 15px;
+    padding-left: 20px;
+}
+
+select, button {
+    margin-top: 10px;
+}
+
+.hint {
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 6px;  
+    margin-bottom: 10px;
+    display: block;   
+}
+
+
+#matchedSkillsTable {
+    margin-bottom: 30px;
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.95em;
+}
+
+#matchedSkillsTable th, #matchedSkillsTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#matchedSkillsTable th {
+    background-color: #f2f2f2;
+    text-align: left;
+}
+
+input[type="radio"] {
+    margin-right: 6px;
+}
+
+.radio-group {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+}
+
+.radio-option {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.95em;
+    color: #333;
+    text-align: center;
+    line-height: 1.3;
+    cursor: pointer;
+}
+
+.radio-option input[type="radio"] {
+    transform: scale(1.2);
+    margin-bottom: 5px;
+    accent-color: #007BFF;
+    cursor: pointer;
+}
+
+.radio-option span {
+    line-height: 1.2;
+}
+
+.description-box {
+    background-color: #f5f7fa;
+    border-left: 5px solid #6c757d;
+    padding: 20px;
+    margin-top: 25px;
+    font-size: 0.95em;
+    line-height: 1.6;
+    color: #333;
+}
+
+.description-box h2 {
+    margin-top: 0;
+    font-size: 1.2em;
+    color: #333;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 30px;
+    padding: 10px 0;
+    background-color: #f2f2f2;
+    border-radius: 8px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+    font-size: 1em;
+    transition: color 0.2s ease;
+}
+
+nav a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+button {
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.job-card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    line-height: 1.6;
+}
+
+.job-card h3 {
+    margin-top: 0;
+    color: #1a73e8;
+}
+
+.job-card .description {
+    max-height: 200px;
+    overflow-y: auto;
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    background-color: #f9f9f9;
+    border-left: 3px solid #1a73e8;
+    font-size: 0.95rem;
+    white-space: pre-wrap;
+}
+
+.apply-button {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #1a73e8;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.apply-button:hover {
+    background-color: #155ab6;
+}
+
+#jobList {
+    list-style: none;
+    padding-left: 0;
+}
+
+.job-skills {
+    margin-top: 0.5rem;
+    font-size: 0.95rem;
+}
+
+.job-skills ul {
+    padding-left: 1.2rem;
+    margin: 0.2rem 0 1rem;
+}
+
+.job-skills li {
+    list-style-type: disc;
+    margin-bottom: 0.2rem;
+}
+
+fieldset {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color: #fefefe;
+}
+
+fieldset input,
+fieldset select,
+fieldset textarea,
+fieldset button {
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 5px;
+}

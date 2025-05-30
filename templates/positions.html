@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Search Jobs – TechSkillSync</title>
+  <link rel="stylesheet" href="/static/styles.css">
+  <link rel="icon" type="image/png" href="{{ url_for('static', filename='favicon.png') }}">
+</head>
+<body>
+  <div class="container">
+    <h1>Find Jobs</h1>
+
+    <nav>
+      <a href="/">Home</a> |
+      <a href="/skill_matcher">Skill Matcher</a> |
+      <a href="/positions">Positions</a>
+    </nav>
+
+    <form id="jobSearchForm">
+      <fieldset>
+        <legend>Search Filters</legend>
+
+        <label for="jobName">Job Title:</label>
+        <input type="text" id="jobName" required placeholder="e.g. Data Scientist">
+
+        <label for="location">Location:</label>
+        <input type="text" id="location" placeholder="e.g. Sydney">
+
+        <label for="country">Country:</label>
+        <select id="country" required>
+          <option value="">-- Select Country --</option>
+          <option value="us">United States</option>
+          <option value="gb">United Kingdom</option>
+          <option value="au">Australia</option>
+          <option value="ca">Canada</option>
+          <option value="de">Germany</option>
+        </select>
+
+        <label for="experience">Experience Level:</label>
+        <select id="experience">
+          <option value="">-- Select --</option>
+          <option value="under_3_years_experience">Under 3 years experience</option>
+          <option value="more_than_3_years_experience">More than 3 years experience</option>
+          <option value="no_experience">No experience</option>
+          <option value="no_degree">No degree</option>
+        </select>
+
+        <label for="employmentType">Employment Type:</label>
+        <select id="employmentType">
+          <option value="">-- Select --</option>
+          <option value="FULLTIME">Full-time</option>
+          <option value="CONTRACTOR">Contractor</option>
+          <option value="PARTTIME">Part-time</option>
+          <option value="INTERN">Intern</option>
+        </select>
+
+        <label for="remoteOnly">Remote Only:</label>
+        <select id="remoteOnly">
+          <option value="">-- Select --</option>
+          <option value="true">Yes</option>
+          <option value="false">No</option>
+        </select>
+
+        <label for="postedOn">Posted Within:</label>
+        <select id="postedOn">
+          <option value="">-- Select --</option>
+          <option value="today">Today</option>
+          <option value="3days">Last 3 days</option>
+          <option value="week">Last 7 days</option>
+          <option value="month">Last 30 days</option>
+        </select>
+
+        <label for="radius">Radius (km):</label>
+        <input type="number" id="radius" min="0" placeholder="e.g. 25">
+
+        <label for="numPages">Number of Pages:</label>
+        <input type="number" id="numPages" min="1" max="5" value="1">
+
+        <button type="submit">Search</button>
+      </fieldset>
+    </form>
+
+    <div id="jobResults">
+      <h2>Job Results</h2>
+      <ul id="jobList"></ul>
+    </div>
+  </div>
+
+  <script src="/static/positions.js"></script>
+</body>
+</html>

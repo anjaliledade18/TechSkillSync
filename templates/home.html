@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome – TechSkillSync</title>
+    <link rel="stylesheet" href="static/styles.css">
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='favicon.png') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to TechSkillSync</h1>
+
+        <nav>
+            <a href="/">Home</a> |
+            <a href="/skill_matcher">Skill Matcher</a> |
+            <a href="/positions">Positions</a>
+        </nav>
+
+        <p><strong>About the Project:</strong></p>
+        <p>
+            We are developing a website that helps individuals enter the IT field by matching their input skills or CV-extracted skills to relevant job opportunities, identifying skill gaps, and providing job listings and filtering options using both the ESCO taxonomy and the Australian skills taxonomy.
+        </p>
+
+        <p><strong>Detailed Description:</strong></p>
+        <p>
+            We are building a website designed to assist individuals aspiring to enter the IT industry by matching their current skill set to relevant job opportunities while identifying skill gaps.
+            The platform allows users to input their skills and receive a list of IT jobs that align with their expertise, along with any missing skills needed for their desired roles.
+            Alternatively, users can enter a specific job title to retrieve the relevant skill set, helping them understand the competencies required.
+        </p>
+
+        <p>
+            Key features include integrated job listings linking to online advertisements, advanced job filtering, and a CV skill extraction tool to identify extracted skills and gaps.
+            The platform uses both ESCO and the Australian skills taxonomy to ensure structured and comprehensive skill mapping.
+        </p>
+
+        <div style="margin-top: 30px;">
+            <a href="/skill_matcher"><button>Try the Skill Matcher</button></a>
+            <a href="/positions"><button>Find Open Positions</button></a>
+        </div>
+    </div>
+</body>
+</html>

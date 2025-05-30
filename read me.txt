@@ -1,0 +1,7 @@
+To run:
+Go to CMD
+type CD path to project folder. E.g. CD C:\Users\nick_\Desktop\University\Autumn 25\36118 Applied Natural Language Processing\Assignments\Assignment 2\techskillsyncsite
+Type venv\Scripts\activate
+Type python app.py
+Wait for app.py to run and it says Flask is running in CMD
+Open browser and go to: http://127.0.0.1:5000

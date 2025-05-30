@@ -1,0 +1,439 @@
+Skill,Category,Mapped Category
+3D lighting,General Knowledge,Other
+3D modelling,General Knowledge,Software Design
+3D texturing,General Knowledge,Other
+ABAP,Tool/Software,computer programming
+accessibility standards,General Knowledge,Other
+Adobe XD,Tool/Software,graphics editor software
+Agile development,General Knowledge,Project Management
+Agile project management,General Knowledge,Project Management
+AJAX,Tool/Software,web programming
+algorithms,General Knowledge,Programming Concepts
+analog electronics theory,General Knowledge,Engineering
+Android,Tool/Software,mobile operating systems
+Angular,Tool/Software,web programming
+AngularJS,Tool/Software,web programming
+Ansible,Tool/Software,tools for software configuration management
+Ant,Tool/Software,tools for software configuration management
+Apache Airflow,Tool/Software,transformation and loading tools
+Apache Maven,Tool/Software,tools for software configuration management
+Apache NiFi,Tool/Software,transformation and loading tools
+APL,Tool/Software,computer programming
+Appium,Tool/Software,tools for test automation
+application usability,General Knowledge,Other
+architectural frameworks,General Knowledge,Other
+ASP.NET,Tool/Software,web programming
+Assembly,Tool/Software,computer programming
+Atom,Tool/Software,integrated development environment software
+audit techniques,General Knowledge,Other
+authoring software,General Knowledge,Other
+AWS,Tool/Software,cloud technologies
+Azure,Tool/Software,cloud technologies
+Babel,Tool/Software,tools for software configuration management
+Bamboo,Tool/Software,tools for software configuration management
+behavioural science,General Knowledge,Other
+BigQuery,Tool/Software,data warehouse
+Bitbucket,Tool/Software,tools for software configuration management
+BlackBerry,Tool/Software,web programming
+blockchain,General Knowledge,AI & Machine Learning
+blockchain application areas,General Knowledge,AI & Machine Learning
+blockchain applications,General Knowledge,AI & Machine Learning
+blockchain applications security principles,General Knowledge,AI & Machine Learning
+blockchain architecture,General Knowledge,AI & Machine Learning
+blockchain components,General Knowledge,AI & Machine Learning
+blockchain consensus mechanisms,General Knowledge,AI & Machine Learning
+blockchain design patterns,General Knowledge,AI & Machine Learning
+blockchain history,General Knowledge,AI & Machine Learning
+blockchain openness,General Knowledge,AI & Machine Learning
+blockchain platforms,General Knowledge,AI & Machine Learning
+Bootstrap,Tool/Software,style sheet languages
+Bower,Tool/Software,tools for software configuration management
+Burp Suite,Tool/Software,cyber security
+business intelligence,General Knowledge,Business & Marketing
+business process modelling,General Knowledge,Software Design
+business processes,General Knowledge,Business & Marketing
+business requirements techniques,General Knowledge,Business & Marketing
+business strategy concepts,General Knowledge,Business & Marketing
+business systems,General Knowledge,Business & Marketing
+C#,Tool/Software,computer programming
+C++,Tool/Software,computer programming
+CA Datacom/DB,Tool/Software,database development tools
+call quality assurance management,General Knowledge,Other
+capacity planning strategies,General Knowledge,Other
+Cassandra,Tool/Software,database development tools
+characteristics of products,General Knowledge,Other
+characteristics of services,General Knowledge,Other
+Chart.js,Tool/Software,data analytics
+Chef,Tool/Software,tools for software configuration management
+CircleCI,Tool/Software,tools for software configuration management
+Cisco,General Knowledge,Other
+cloud monitoring and reporting,General Knowledge,Cloud Computing
+cloud security and compliance,General Knowledge,Cloud Computing
+cloud technologies,General Knowledge,Cloud Computing
+COBOL,Tool/Software,computer programming
+Code::Blocks,Tool/Software,integrated development environment software
+Codenvy,General Knowledge,Programming Concepts
+CoffeeScript,Tool/Software,computer programming
+cognitive computing,General Knowledge,Other
+cognitive psychology,General Knowledge,Other
+Common Lisp,Tool/Software,computer programming
+communications protocols,General Knowledge,Other
+computer engineering,General Knowledge,Engineering
+computer forensics,General Knowledge,Other
+computer graphics,General Knowledge,Other
+computer programming,General Knowledge,Programming Concepts
+computer science,General Knowledge,Other
+computer simulation,General Knowledge,Other
+computer technology,General Knowledge,Other
+concepts of telecommunications,General Knowledge,Other
+content development processes,General Knowledge,Other
+content marketing strategy,General Knowledge,Business & Marketing
+control objectives for information and related technology,General Knowledge,Other
+copyright legislation,General Knowledge,Governance & Compliance
+CouchDB,Tool/Software,database development tools
+crowdsourcing strategy,General Knowledge,Business & Marketing
+CSS,Tool/Software,style sheet languages
+CSS3,Tool/Software,style sheet languages
+Cucumber,Tool/Software,tools for test automation
+cyber attack counter-measures,General Knowledge,Security
+cyber security,General Knowledge,Security
+Cypress,Tool/Software,tools for test automation
+D3.js,Tool/Software,data analytics
+data analytics,General Knowledge,Data & Analytics
+data engineering,General Knowledge,Data & Analytics
+data extraction,General Knowledge,Data & Analytics
+data mining,General Knowledge,Data & Analytics
+data models,General Knowledge,Data & Analytics
+data quality assessment,General Knowledge,Data & Analytics
+data science,General Knowledge,Data & Analytics
+data storage,General Knowledge,Data & Analytics
+data warehouse,General Knowledge,Data & Analytics
+database,Tool/Software,data storage
+database development tools,General Knowledge,Data & Analytics
+database management systems,General Knowledge,Data & Analytics
+database quality standards,General Knowledge,Data & Analytics
+DB2,Tool/Software,data storage
+debugging tools,General Knowledge,Programming Concepts
+decentralized application frameworks,General Knowledge,Other
+decision support systems,General Knowledge,Other
+deep learning,General Knowledge,AI & Machine Learning
+design thinking,General Knowledge,Design & UX
+DevOps,General Knowledge,Other
+digital data processing,General Knowledge,Data & Analytics
+digital game genres,General Knowledge,Other
+digital image processing,General Knowledge,Other
+digital marketing techniques,General Knowledge,Business & Marketing
+digital systems,General Knowledge,Other
+digital twin technology,General Knowledge,Other
+DigitalOcean,Tool/Software,cloud technologies
+direct inward dialing,General Knowledge,Other
+distributed computing,General Knowledge,Other
+distributed directory information services,General Knowledge,Other
+Django,Tool/Software,web programming
+Docker,Tool/Software,tools for software configuration management
+documentation types,General Knowledge,Other
+Domo,Tool/Software,data analytics
+Eclipse,Tool/Software,integrated development environment software
+electrical engineering,General Knowledge,Engineering
+electromagnetism,General Knowledge,Other
+electronics principles,General Knowledge,Engineering
+embedded systems,General Knowledge,Other
+emergent technologies,General Knowledge,Other
+Emmet,Tool/Software,web programming
+encryption,General Knowledge,Security
+engineering control theory,General Knowledge,Engineering
+engineering principles,General Knowledge,Engineering
+engineering processes,General Knowledge,Engineering
+environmental policies,General Knowledge,Other
+Erlang,Tool/Software,computer programming
+ESLint,Tool/Software,debugging tools
+ethical hacking principles,General Knowledge,Security
+ethics,General Knowledge,Other
+Express.js,Tool/Software,web programming
+Figma,Tool/Software,graphics editor software
+Filemaker,Tool/Software,database management systems
+Firebase,Tool/Software,cloud technologies
+Flask,Tool/Software,web programming
+Flutter,Tool/Software,web programming
+Git,Tool/Software,tools for software configuration management
+GitHub,Tool/Software,tools for software configuration management
+GitLab,Tool/Software,tools for software configuration management
+Google Cloud Platform,Tool/Software,cloud technologies
+Google Data Studio,Tool/Software,data analytics
+Gradle,Tool/Software,tools for software configuration management
+Grafana,Tool/Software,data analytics
+graphics editor software,General Knowledge,Other
+GraphQL,Tool/Software,query languages
+Groovy,Tool/Software,computer programming
+gRPC,Tool/Software,query languages
+Gtmetrix,Tool/Software,data analytics
+Hadoop,Tool/Software,data storage
+hardware architectures,General Knowledge,Other
+hardware components,General Knowledge,Other
+hardware components suppliers,General Knowledge,Other
+hardware platforms,General Knowledge,Other
+hardware testing methods,General Knowledge,Other
+Haskell,Tool/Software,computer programming
+Helm,Tool/Software,tools for software configuration management
+help platforms,General Knowledge,Other
+Heroku,Tool/Software,cloud technologies
+Hive,Tool/Software,data warehouse
+HTML,Tool/Software,style sheet languages
+HTML5,Tool/Software,style sheet languages
+Hugging Face Transformers,Tool/Software,machine learning
+human-computer interaction,General Knowledge,Other
+Hybrid model,General Knowledge,Other
+IBM Cloud,Tool/Software,cloud technologies
+IBM Informix,Tool/Software,database development tools
+IBM InfoSphere Information Server,Tool/Software,transformation and loading tools
+IBM WebSphere,Tool/Software,tools for software configuration management
+IFTTT,Tool/Software,service-oriented modelling
+image formation,General Knowledge,Other
+image recognition,General Knowledge,Other
+industrial software,General Knowledge,Other
+information architecture,General Knowledge,Other
+information categorisation,General Knowledge,Other
+information confidentiality,General Knowledge,Other
+information extraction,General Knowledge,Other
+information governance compliance,General Knowledge,Governance & Compliance
+information security strategy,General Knowledge,Security
+information structure,General Knowledge,Other
+infrastructure,General Knowledge,Other
+innovation processes,General Knowledge,Other
+insourcing strategy,General Knowledge,Business & Marketing
+integrated development environment software,General Knowledge,Other
+IntelliJ IDEA,Tool/Software,integrated development environment software
+interfacing techniques,General Knowledge,Other
+internal risk management policy,General Knowledge,Governance & Compliance
+internet governance,General Knowledge,Governance & Compliance
+Internet of Things,General Knowledge,Other
+InVision,Tool/Software,graphics editor software
+Ionic,Tool/Software,web programming
+iOS,Tool/Software,mobile operating systems
+Java,Tool/Software,computer programming
+JavaScript,Tool/Software,web programming
+JavaScript Framework,Tool/Software,web programming
+Jenkins,Tool/Software,tools for software configuration management
+jQuery,Tool/Software,web programming
+JSSS,Tool/Software,style sheet languages
+JUnit,Tool/Software,tools for test automation
+KDevelop,Tool/Software,integrated development environment software
+Keras,Tool/Software,machine learning
+keywords in digital content,General Knowledge,Other
+Kubernetes,Tool/Software,tools for software configuration management
+Laravel,Tool/Software,web programming
+lathe machine parts,General Knowledge,Other
+LDAP,Tool/Software,cyber security
+Lean project management,General Knowledge,Project Management
+legal requirements of products,General Knowledge,Other
+LESS,Tool/Software,style sheet languages
+levels of software testing,General Knowledge,Other
+Lighthouse,Tool/Software,web programming
+LINQ,Tool/Software,query languages
+Lisp,Tool/Software,computer programming
+LoadRunner,Tool/Software,tools for test automation
+Lodash,Tool/Software,web programming
+Looker,Tool/Software,business intelligence
+machine learning,General Knowledge,AI & Machine Learning
+manufacturing processes,General Knowledge,Other
+MariaDB,Tool/Software,data storage
+market,General Knowledge,Other
+mathematical modelling,General Knowledge,Software Design
+mathematics,General Knowledge,Mathematics & Logic
+MATLAB,Tool/Software,statistical analysis system software
+MDX,Tool/Software,query languages
+mechanics,General Knowledge,Other
+mechatronics,General Knowledge,Other
+Metasploit,Tool/Software,cyber security
+Microsoft Access,Tool/Software,database development tools
+Microsoft Excel,Tool/Software,data analytics
+Microsoft Visio,Tool/Software,graphics editor software
+Microsoft Visual C++,Tool/Software,integrated development environment software
+microwave principles,General Knowledge,Other
+ML,Tool/Software,computer programming
+mobile device management,General Knowledge,Mobile & Devices
+mobile device software frameworks,General Knowledge,Mobile & Devices
+mobile marketing,General Knowledge,Mobile & Devices
+mobile operating systems,General Knowledge,Mobile & Devices
+MongoDB,Tool/Software,data storage
+MySQL,Tool/Software,query languages
+N1QL,Tool/Software,query languages
+Nagios,Tool/Software,network management system tools
+natural language processing,General Knowledge,Other
+Nessus,Tool/Software,cyber security
+NetBeans,Tool/Software,integrated development environment software
+network cable limitations,General Knowledge,Networking
+network management system tools,General Knowledge,Networking
+network routing,General Knowledge,Networking
+network security risks,General Knowledge,Security
+network simulation,General Knowledge,Networking
+networking hardware,General Knowledge,Networking
+New Relic,Tool/Software,network management system tools
+Next.js,Tool/Software,web programming
+NLTK,Tool/Software,natural language processing
+Node.js,Tool/Software,web programming
+NPM,Tool/Software,tools for software configuration management
+Nuxt.js,Tool/Software,web programming
+Objective-C,Tool/Software,computer programming
+object-oriented modelling,General Knowledge,Software Design
+ObjectStore,Tool/Software,object-oriented modelling
+online analytical processing,General Knowledge,Other
+Open source model,General Knowledge,Other
+OpenCV,Tool/Software,machine learning
+OpenEdge Advanced Business Language,Tool/Software,computer programming
+OpenEdge Database,Tool/Software,database development tools
+operating systems,General Knowledge,Other
+Oracle Data Integrator,Tool/Software,data storage
+Oracle Relational Database,Tool/Software,data storage
+organisational policies,General Knowledge,Other
+organisational resilience,General Knowledge,Other
+organisational structure,General Knowledge,Other
+outsourcing strategy,General Knowledge,Business & Marketing
+OWASP ZAP,Tool/Software,cyber security
+Pascal,Tool/Software,computer programming
+penetration testing tool,General Knowledge,Other
+Pentaho Data Integration,Tool/Software,transformation and loading tools
+performance analysis methods,General Knowledge,Other
+Perl,Tool/Software,computer programming
+PHP,Tool/Software,web programming
+PostCSS,Tool/Software,style sheet languages
+PostgreSQL,Tool/Software,query languages
+Postman,Tool/Software,query languages
+Power BI,Tool/Software,business intelligence
+power consumption,General Knowledge,Other
+Prettier,Tool/Software,debugging tools
+principles of artificial intelligence,General Knowledge,AI & Machine Learning
+principles of distributed ledger technology,General Knowledge,Emerging Tech
+problem management techniques,General Knowledge,Other
+process quality models,General Knowledge,Other
+Process-based management,General Knowledge,Other
+procurement of network equipment,General Knowledge,Networking
+product comprehension,General Knowledge,Other
+product life-cycle,General Knowledge,Other
+product usage risks analysis,General Knowledge,Other
+project configuration management,General Knowledge,Project Management
+project management,General Knowledge,Project Management
+project management methodologies,General Knowledge,Project Management
+Prolog,Tool/Software,computer programming
+Prometheus,Tool/Software,network management system tools
+proxy servers,General Knowledge,Other
+publishing strategy,General Knowledge,Business & Marketing
+Puppet,Tool/Software,tools for software configuration management
+Python,Tool/Software,computer programming
+PyTorch,Tool/Software,machine learning
+QlikView Expressor,Tool/Software,data analytics
+quality assurance methodologies,General Knowledge,Other
+quality policy,General Knowledge,Governance & Compliance
+quality standards,General Knowledge,Other
+quantum computing,General Knowledge,Other
+query languages,General Knowledge,Other
+R,Tool/Software,computer programming
+RapidMiner,Tool/Software,machine learning
+React,Tool/Software,web programming
+React Native,Tool/Software,web programming
+real-time computing,General Knowledge,Other
+recovery techniques,General Knowledge,Other
+Redis,Tool/Software,database development tools
+resource description framework query language,General Knowledge,Other
+REST,Tool/Software,query languages
+Ruby,Tool/Software,computer programming
+Ruby on Rails,Tool/Software,web programming
+SaaS,Tool/Software,service-oriented modelling
+safety,General Knowledge,Other
+safety engineering,General Knowledge,Engineering
+sales methodologies,General Knowledge,Other
+sales strategies,General Knowledge,Other
+Salt,Tool/Software,tools for software configuration management
+SAP Data Services,Tool/Software,transformation and loading tools
+SAP R3,Tool/Software,database development tools
+SAS Data Management,Tool/Software,statistical analysis system software
+SAS language,Tool/Software,statistical analysis system software
+SASS,Tool/Software,style sheet languages
+Scala,Tool/Software,computer programming
+scientific research methodology,General Knowledge,Other
+Scikit-learn,Tool/Software,machine learning
+Scratch,Tool/Software,computer programming
+security engineering,General Knowledge,Security
+security legislation,General Knowledge,Security
+security standards,General Knowledge,Security
+Selenium,Tool/Software,tools for test automation
+Sentry,Tool/Software,network management system tools
+service-oriented modelling,General Knowledge,Software Design
+signal processing,General Knowledge,Other
+Smalltalk,Tool/Software,computer programming
+smart contract,General Knowledge,Emerging Tech
+Snort,Tool/Software,cyber security
+Snowflake,Tool/Software,data warehouse
+SOAP,Tool/Software,query languages
+social media marketing techniques,General Knowledge,Business & Marketing
+software anomalies,General Knowledge,Other
+software architecture models,General Knowledge,Software Design
+software components libraries,General Knowledge,Other
+software components suppliers,General Knowledge,Other
+software design methodologies,General Knowledge,Design & UX
+software frameworks,General Knowledge,Other
+software interaction design,General Knowledge,Design & UX
+software metrics,General Knowledge,Other
+software specifications,General Knowledge,Other
+software UI design patterns,General Knowledge,Software Design
+Solidity,General Knowledge,Other
+solution deployment,General Knowledge,Other
+spaCy,Tool/Software,natural language processing
+SPARQL,Tool/Software,query languages
+Spiral development,General Knowledge,Other
+Spring Boot,Tool/Software,web programming
+SQL Server,Tool/Software,data storage
+STAF,Tool/Software,tools for test automation
+statistical analysis system software,General Knowledge,Mathematics & Logic
+statistics,General Knowledge,Mathematics & Logic
+style sheet languages,General Knowledge,Other
+Sublime Text,Tool/Software,integrated development environment software
+Svelte,Tool/Software,web programming
+Swift,Tool/Software,computer programming
+Synfig,Tool/Software,graphics editor software
+system backup best practice,General Knowledge,Other
+system integration,General Knowledge,Other
+system programming,General Knowledge,Programming Concepts
+system user requirements,General Knowledge,Other
+systems development life-cycle,General Knowledge,Other
+systems theory,General Knowledge,Other
+Tableau,Tool/Software,business intelligence
+Tailwind CSS,Tool/Software,style sheet languages
+task algorithmisation,General Knowledge,Programming Concepts
+technical drawings,General Knowledge,Other
+TensorFlow,Tool/Software,machine learning
+Teradata Database,Tool/Software,data storage
+Terraform,Tool/Software,tools for software configuration management
+TestNG,Tool/Software,tools for test automation
+tools for software configuration management,General Knowledge,Other
+tools for test automation,General Knowledge,Other
+transformation and loading tools,General Knowledge,Other
+Transformers,Tool/Software,natural language processing
+Travis CI,Tool/Software,tools for software configuration management
+trigonometry,General Knowledge,Mathematics & Logic
+TypeScript,Tool/Software,web programming
+unified modelling language,General Knowledge,Software Design
+unstructured data,General Knowledge,Data & Analytics
+usability engineering,General Knowledge,Engineering
+Vagrant,Tool/Software,tools for software configuration management
+VBScript,Tool/Software,computer programming
+visual presentation techniques,General Knowledge,Design & UX
+Visual Studio .NET,Tool/Software,integrated development environment software
+Visual Studio Code,Tool/Software,integrated development environment software
+Vue.js,Tool/Software,web programming
+Vyper,Tool/Software,blockchain
+Waterfall development,General Knowledge,Project Management
+web analytics,General Knowledge,Data & Analytics
+web application security threats,General Knowledge,Security
+web programming,General Knowledge,Web Development
+Webpack,Tool/Software,tools for software configuration management
+Windows Phone,Tool/Software,web programming
+Wireshark,Tool/Software,cyber security
+World Wide Web Consortium standards,General Knowledge,Web Development
+Xamarin,Tool/Software,web programming
+Xcode,Tool/Software,integrated development environment software
+XQuery,Tool/Software,query languages
+Yarn,Tool/Software,tools for software configuration management
+Zapier,Tool/Software,service-oriented modelling
+SQL,Tool/Software,query languages
+Linux,Tool/Software,operating system
